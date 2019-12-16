@@ -17,7 +17,7 @@ function draw() {
   ellipse(x, y, 24, 24);
 
   // Jiggling randomly on the horizontal axis
-  x = x + random(-1, 1);
+
   // Moving up at a constant speed
   y = y - 1;
 }
