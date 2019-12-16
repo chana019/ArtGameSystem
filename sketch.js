@@ -6,8 +6,8 @@ let canvasHeight = 400;
 function setup() {
  canvas = createCanvas(canvasWidth, canvasHeight);
  canvas.position(windowWidth/2 - canvasWidth/2, 20);
- x = width / 2;
- y = height;
+ x = canvasWidth / 2;
+ y = canvasHeight;
 }
 
 function draw() {
