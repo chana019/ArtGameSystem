@@ -10,5 +10,12 @@ function setup() {
 
 function draw() {
  background(30);
- rect(mouseX, mouseY, 100, 100);
+ stroke(50);
+  fill(100);
+  ellipse(x, y, 24, 24);
+
+  // Jiggling randomly on the horizontal axis
+  x = x + random(-1, 1);
+  // Moving up at a constant speed
+  y = y - 1;
 }
