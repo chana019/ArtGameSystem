@@ -1,4 +1,3 @@
-let x, y;
 let canvas;
 let canvasWidth = 600;
 let canvasHeight = 400;
