@@ -42,19 +42,19 @@ function draw() {
    g = g + 7;
 
    // Reset to the bottom
-   if (a > height) {
+   if (a > canvasHeight) {
      a = 0;
    }
-     if (b > height) {
+     if (b > canvasHeight) {
      b = 0;
    }
-   if (c > height) {
+   if (c > canvasHeight) {
      c = 0;
    }
-   if (d > height) {
+   if (d > canvasHeight) {
      d = 0;
    }
-   if (e > height) {
+   if (e > canvasHeight) {
      e = 0;
    }
 
