@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(255);
 
    // Draw a circle
    stroke(50);
